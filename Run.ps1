@@ -59,14 +59,18 @@ Enable-RemoteDesktop
 choco install Microsoft-Windows-Subsystem-Linux -source windowsfeatures
 
 _cinst git.install
+_cinst github-desktop
 _cinst vscode
 _cinst GoogleChrome
 _cinst sysinternals
 _cinst wireshark
 _cinst synergy
+_cinst python
+_cinst windirstat
+_cinst calibre
 
 
-_cinst putty
+_cinst putty.install
 _cinst notepadplusplus
 _cinst cmder
 _cinst 7zip.install
